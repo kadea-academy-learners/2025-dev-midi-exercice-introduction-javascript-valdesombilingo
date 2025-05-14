@@ -5,9 +5,11 @@ let celsius;
 function celsiusToFahrenheit(celsius) {
   // ecrire le code de conversion ici
   let fahrenheit;
-  // la ligne suivante ne doit pas être modifiée
+  fahrenheit=(celsius*(9/5))+32;
+
   return fahrenheit;
 }
+console.log(celsiusToFahrenheit(25));
 
 // les lignes suivantes ne sont pas à modifier
 module.exports = { celsiusToFahrenheit };
