@@ -27,7 +27,7 @@ let salaireMensuel,
   }
 
   //ajout du loisir en prenant 15% du salaireMensuel
-  let loisirs=(500/100)*15;
+  let loisirs=(salaireMensuel/100)*15;
   totalDepenses=totalDepenses+loisirs;
   reste=salaireMensuel-totalDepenses;
 
