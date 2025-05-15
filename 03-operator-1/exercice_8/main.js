@@ -5,9 +5,9 @@ let salaireMensuel,
   autresDepenses;
 // Ecrivez votre code ici
 salaireMensuel = 500;
-loyer = salaireMensuel * 0.30;
-nourriture = salaireMensuel * 0.20;
-transport = salaireMensuel * 0.10;
+loyer = salaireMensuel * 0.3;
+nourriture = salaireMensuel * 0.2;
+transport = salaireMensuel * 0.1;
 autresDepenses = 50 + 25;
 
 totalDepenses = loyer + nourriture + transport + autresDepenses;
