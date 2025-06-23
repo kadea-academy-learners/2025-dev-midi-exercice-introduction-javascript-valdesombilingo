@@ -1,5 +1,5 @@
-let age = 30;
-let nom = "alicia";
+let age = 22;
+let nom = "Lamine";
 let estConnecte = true;
 let valeurNulle = null;
 let inconnue;
