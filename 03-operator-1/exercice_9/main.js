@@ -1,18 +1,36 @@
 let paul, marie, eric, clair, madameMukuna, joseph, sarah;
-// Ecrivez votre code ici
-let maison = 60000000, terrains = 40000000, liquidités = 20000000;
-let heritages= maison +terrains + liquidités;
-let categories1= heritages*0.75;
-let partenfant = categories1 / 3;
-paul = partenfant;
-marie = partenfant;
-eric = partenfant / 2;
-clair = partenfant / 2;
-let categories2 = heritages*0.25;
-let partconjointoufreres = categories2 / 3;
-madameMukuna = partconjointoufreres;
-joseph = partconjointoufreres;
-sarah = partconjointoufreres;
+
+
+
+let maisonFamiliale ,terrains,liquidites;
+
+maisonFamiliale =60000000;
+terrains=40000000;
+liquidites=20000000;
+// heritage
+heritage=maisonFamiliale+terrains+liquidites;
+
+//heritage des enfants du defun
+heritageEnfantDefunt=(75/100)*heritage;
+
+paul=heritageEnfantDefunt/3
+marie=heritageEnfantDefunt/3
+alain=heritageEnfantDefunt/3
+//enfant alain (decedee)
+eric=alain/2
+clair=alain/2
+
+//heritage conjoint , frere et soeur
+
+heritageConjointFrereEtSoeur=(25/100)*heritage;
+
+madameMukuna=heritageConjointFrereEtSoeur/3;
+sarah=heritageConjointFrereEtSoeur/3;
+joseph=heritageConjointFrereEtSoeur/3;
+
+
+
+
 
 
 
