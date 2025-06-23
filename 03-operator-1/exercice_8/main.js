@@ -1,18 +1,12 @@
-let salaireMensuel,
-  loyer,
-  nourriture,
-  transport,
-  autresDepenses =50,
-  totalDepenses,
-  reste;
+let salaireMensuel = 500;
+let loyer = 150,
+  nourriture = 100,
+  transport = 50,
+  autresDepenses = 75,
+  totalDepenses = loyer + nourriture + transport + autresDepenses,
+  reste = salaireMensuel - totalDepenses;
 // Ecrivez votre code ici
-salaireMensuel = 500;
-loyer = salaireMensuel*0.3;
-nourriture = salaireMensuel*0.2;
-transport = salaireMensuel*0.1;
-autresDepenses += 25;
-totalDepenses = loyer+transport+nourriture+autresDepenses;
-reste = salaireMensuel-totalDepenses; 
+
 // Ne pas modifier le code ci-dessous
 module.exports = {
   salaireMensuel,

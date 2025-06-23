@@ -1,2 +1,2 @@
-let nom = 'Kadea';
-console.log(nom);
+// Ce programme affiche un message Hello World
+console.log("Hello World !");
